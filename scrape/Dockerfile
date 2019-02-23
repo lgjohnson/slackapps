@@ -8,4 +8,4 @@ WORKDIR js
 
 RUN npm i
 
-ENTRYPOINT node scrape.js && cat urls.txt
+ENTRYPOINT node scrape.js

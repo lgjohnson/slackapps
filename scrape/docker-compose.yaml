@@ -1,0 +1,15 @@
+version: '3'
+services:
+  scraper:
+    build: .
+    image: scraper
+    environment:
+      - SECRET_ACCESS_KEY=${SECRET_ACCESS_KEY}
+      - ACCESS_KEY_ID=${ACCESS_KEY_ID}
+      - S3_BUCKET=${S3_BUCKET}
+      - S3_BUCKET_REGION=${S3_BUCKET_REGION}
+      - S3_PREFIX=${S3_PREFIX}
+
+
+
+    
