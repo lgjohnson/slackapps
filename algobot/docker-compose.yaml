@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  slackbots:
+    build: .
+    image: algobot
+    container_name: algobot_container
